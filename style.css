@@ -1,0 +1,54 @@
+body{
+    color: yellowgreen;
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+.navbar{
+    background-color: blue;
+    box-shadow: 1px 1px, -1px -1px;
+    margin-top: 5px;
+}
+
+
+.navbar .navbar-brand,
+.navbar .nav-link{
+    color: yellowgreen;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.nav-pills{
+ background-color: blue;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ width: 100%;
+}
+
+.fa-solid.fa-plane-departure{
+    color: yellowgreen;
+}
+
+
+
+@keyframes pulse{
+    0% {transform: scale(1);}
+    50% {transform: scale(1.02);}
+    100% {transform: scale(1);}
+}
+
+.navbar:hover{
+    animation: pulse 3s;
+    color: red;
+}
+
+.footer{
+    height: 100px;
+}
+
